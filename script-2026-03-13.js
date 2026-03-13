@@ -1,7 +1,6 @@
-// Daily script generated on Fri Mar 13 01:24:03 UTC 2026
-// Randomly selected snippet #1
+// Daily script generated on Fri Mar 13 02:22:46 UTC 2026
+// Randomly selected snippet #14
 
-// Snippet 1: A simple greeting
-  console.log('Hello there! This is a random greeting script.');
-  const user = 'Developer';
-  console.log(`Welcome, ${user}!`);
+// Snippet 14: Object destructuring with defaults
+  const {a=1, b=2} = {a: 10};
+  console.log(a, b);
